@@ -1,0 +1,26 @@
+# Python environment
+huggingface-env/
+new_env/
+
+# Byte-compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Python packages
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+pycharm-debug.egg
+*.iml
+
+# Log files
+*.log
