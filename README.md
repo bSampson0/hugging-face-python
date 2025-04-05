@@ -30,4 +30,15 @@ This project provides a tutorial on how to access pre-trained models from Huggin
 - **Other dependencies**: Listed in `requirements.txt`.
 
 ### Installing Requirements
-Run the following command to install the required dependencies:
+- Run the following command to create a virtual environment named huggingface-env:
+  - python -m venv huggingface-env
+- Activate the Virtual Environment
+  - On Mac
+    - source huggingface-env/bin/activate
+  - Windows
+    - huggingface-env\Scripts\activate
+- Once activated, your terminal prompt will change to indicate the environment is active (e.g., (huggingface-env)).
+- Install Dependencies
+  - pip install -r requirements.txt
+- Verify the Environment
+  - pip list
